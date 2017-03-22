@@ -3,6 +3,11 @@ public class Addition extends OperateurBinaire{
 		super("+", ng, nd);
 	}
 
+    @Override
+    public void accept(Affichage v) {
+        v.visit(this);
+    }
+
 
 	
 

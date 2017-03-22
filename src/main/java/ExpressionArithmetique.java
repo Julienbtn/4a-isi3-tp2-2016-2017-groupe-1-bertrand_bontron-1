@@ -11,7 +11,7 @@ public class ExpressionArithmetique {
 
 	public void afficherPostFixe() {
 		System.out.println("\n postfixe:");
-		// TODO 
+                this.racine.accept(new AffichagePostfixe());
 		
 	}
 
@@ -26,7 +26,7 @@ public class ExpressionArithmetique {
 	}
 	public void afficherInFixe() {
 		System.out.println("\n infixe:");
-		// TODO 
+                this.racine.accept(new AffichageInfixe());
 		
 	}
 	
