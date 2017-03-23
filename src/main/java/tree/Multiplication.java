@@ -1,3 +1,8 @@
+package tree;
+
+
+import tree.visitor.Affichage;
+
 public class Multiplication extends OperateurBinaire{
 
     public Multiplication( Noeud ng, Noeud nd) {
@@ -6,8 +11,8 @@ public class Multiplication extends OperateurBinaire{
 
 	
     @Override
-    public void accept(Affichage v) {
-        v.visit(this);
+    public void accept(Affichage visiteur) {
+        visiteur.visit(this);
     }
 
 }

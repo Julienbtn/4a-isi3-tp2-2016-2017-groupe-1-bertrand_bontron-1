@@ -1,6 +1,11 @@
+package tree;
+
+
+import tree.visitor.Affichage;
+
 public interface Noeud {
     
-    void accept(Affichage v);
+    void accept(Affichage visiteur);
     /*
     default void accept(Visitor v)
     {

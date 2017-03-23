@@ -1,3 +1,8 @@
+package tree.visitor;
+
+
+import tree.*;
+
 class AffichagePrefixe implements Affichage {
 
 

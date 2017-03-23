@@ -1,3 +1,7 @@
+import tree.*;
+
+import tree.ExpressionArithmetique;
+
 public class TestArbreBinaire {
 
 	public static void main(String[] args) {

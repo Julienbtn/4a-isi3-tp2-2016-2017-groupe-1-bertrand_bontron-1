@@ -1,4 +1,9 @@
-class AffichagePostfixe implements Affichage {
+package tree.visitor;
+
+
+import tree.*;
+
+public class AffichagePostfixe implements Affichage {
 
     @Override
     public void visit(Constante constante) {

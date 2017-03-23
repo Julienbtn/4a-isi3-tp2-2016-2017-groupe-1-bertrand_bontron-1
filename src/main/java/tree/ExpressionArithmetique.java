@@ -1,3 +1,7 @@
+package tree;
+
+import tree.visitor.*;
+
 public class ExpressionArithmetique {
 	private Noeud racine;
 	

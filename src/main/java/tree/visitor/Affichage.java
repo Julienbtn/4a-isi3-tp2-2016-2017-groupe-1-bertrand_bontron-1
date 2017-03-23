@@ -1,3 +1,8 @@
+package tree.visitor;
+
+
+import tree.*;
+
 public interface Affichage {
     
     void visit(Constante constante);

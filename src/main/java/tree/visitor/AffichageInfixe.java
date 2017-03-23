@@ -1,3 +1,11 @@
+package tree.visitor;
+
+
+import tree.Negation;
+import tree.Multiplication;
+import tree.Constante;
+import tree.Addition;
+
 public class AffichageInfixe implements Affichage {
 
     @Override
