@@ -20,13 +20,15 @@ public class ExpressionArithmetique {
 	}
 
 	public int calculerValeur() {
-		// TODO 
-		return 0;
+                AffichageValeur calculeurDeValeurDeNoeud = new AffichageValeur();
+                this.racine.accept(calculeurDeValeurDeNoeud);
+		return calculeurDeValeurDeNoeud.getValue();
 	}
 
 	public int calculerHauteur() {
-		// TODO 
-		return 0;
+                AffichageHauteur calculeurDeHauteuDeNoeud = new AffichageHauteur();
+                this.racine.accept(calculeurDeHauteuDeNoeud);
+		return calculeurDeHauteuDeNoeud.getHauteur();
 	}
 	public void afficherInFixe() {
 		System.out.println("\n infixe:");
